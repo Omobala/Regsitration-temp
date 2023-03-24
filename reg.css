@@ -1,0 +1,3180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+}
+
+/* The wrapper */
+
+.wrap{
+    padding: 30px 40px;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(250, 247, 247);
+}
+
+/* styling the reg section */
+.reg .reg-cont{
+    display: grid;
+    grid-template-columns: 500px 600px;
+    column-gap: 250px;
+    padding: 50px 30px;
+}
+
+/* styling the right column */
+
+/* styling the heading */
+.right-col .container h3{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+/* styling the reg form */
+
+/* styling all inputs */
+input{
+    padding: 7px 7px;
+    width: 250px;
+    color: green;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid green;
+    outline: none;
+}
+
+/* styling all labels */
+label{
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 0 6px;
+}
+
+/* styling student checkbox */
+#stud-check{
+    width: 30px;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* styling non-students checkbox */
+#Nstud-check{
+    width: 30px;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* styling student form */
+.stud-form{
+    display: none;
+}
+
+/* styling the select tag */
+select{
+    outline: none;
+    cursor: pointer;
+    padding: 5px 6px;
+    border-radius: 5px;
+    border: 1px solid green;
+    color: green;
+    width: 135px;
+    margin-bottom: 15px;
+}
+
+/* styling the non-students form */
+
+.Nstud-form{
+    display: none;
+}
+
+#biz-owner, #worker{
+    width: 20px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.que-biz{
+    border: 1px solid green;
+    width: 250px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.que-biz #que{
+    padding: 0;
+    font-size: 13px;
+}
+
+span img{
+    width: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.que-w{
+    border: 1px solid green;
+    width: 250px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.que-w #que{
+    padding: 0;
+    font-size: 13px;
+}
+
+.bizOwner-form, .worker-form{
+    margin-bottom: 15px;
+}
+
+#angleUp, #angleUp1, #angleUp2, #angleUp3, #angleUp4{
+    display: none;
+}
+
+#bizName{
+    width: 230px;
+    display: none;
+}
+
+#address{
+    width: 230px;
+    display: none;
+}
+
+#workName{
+    width: 230px;
+    display: none;
+}
+
+#Waddress{
+    width: 230px;
+    display: none;
+}
+
+#abt{
+    text-transform: capitalize;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px 5px;
+}
+
+textarea{
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+#agr{
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+#agreeTerms{
+    width: 30px;
+    cursor: pointer;
+}
+
+.terms-conditions{
+    margin-bottom: 15px;
+}
+
+.terms-conditions a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.reg-button button{
+    background: gray;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 60px;
+    cursor: not-allowed;
+}
+
+/* styling the pop up */
+
+.popup{
+    width: 360px;
+    background: white;
+    padding: 20px 15px;
+    border: 1px solid #f4f4f4;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    display: none;
+}
+
+.popup .img-card img{
+    width: 300px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.popup p{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#cong{
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+#confirm{
+    background: green;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+p.right{
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* styling for responsiveness */
+
+@media screen and (max-width : 1366px) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: grid;
+        grid-template-columns: 500px 400px;
+        column-gap: 250px;
+        padding: 50px 30px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 18px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    #agreeTerms{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 360px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 1024px) and (orientation : portrait) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: grid;
+        grid-template-columns: 300px 400px;
+        column-gap: 250px;
+        padding: 50px 20px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 18px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    #agreeTerms{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 360px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 1366px) and (orientation : landscape) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: grid;
+        grid-template-columns: 500px 400px;
+        column-gap: 250px;
+        padding: 50px 30px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 18px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    #agreeTerms{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 360px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 912px) and (orientation : portrait) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: block;
+        /* grid-template-columns: 300px 400px;
+        column-gap: 250px; */
+        padding: 50px 40px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+
+    .right-col .container{
+        margin-top: 130px;
+        margin-left: 180px;
+    }
+
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    #agreeTerms{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 360px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 768px) and (orientation : portrait) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: block;
+        /* grid-template-columns: 300px 400px;
+        column-gap: 250px; */
+        padding: 50px 40px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+
+    .right-col .container{
+        margin-top: 130px;
+        margin-left: 180px;
+    }
+
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    #agreeTerms{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 360px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 540px) and (orientation : portrait) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: block;
+        /* grid-template-columns: 300px 400px;
+        column-gap: 250px; */
+        padding: 50px 15px;
+    }
+
+    /* styling the left column image */
+    .left-col .container img{
+        width: 400px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+
+    .right-col .container{
+        margin-top: 130px;
+        margin-left: 80px;
+    }
+
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    #agreeTerms{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 220px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 150px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 425px) and (orientation : portrait) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: block;
+        /* grid-template-columns: 300px 400px;
+        column-gap: 250px; */
+        padding: 50px 15px;
+    }
+
+    /* styling the left column image */
+    .left-col .container img{
+        width: 350px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+
+    .right-col .container{
+        margin-top: 130px;
+        margin-left: 15px;
+    }
+
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    #agreeTerms{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 220px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 150px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 393px) and (orientation : portrait) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: block;
+        /* grid-template-columns: 300px 400px;
+        column-gap: 250px; */
+        padding: 50px 15px;
+    }
+
+    /* styling the left column image */
+    .left-col .container img{
+        width: 320px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+
+    .right-col .container{
+        margin-top: 130px;
+        margin-left: 15px;
+    }
+
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    #agreeTerms{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 220px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 150px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 360px) and (orientation : portrait) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: block;
+        /* grid-template-columns: 300px 400px;
+        column-gap: 250px; */
+        padding: 50px 10px;
+    }
+
+    /* styling the left column image */
+    .left-col .container img{
+        width: 300px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+
+    .right-col .container{
+        margin-top: 130px;
+        margin-left: 3px;
+    }
+
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 13px;
+    }
+
+    #agreeTerms{
+        width: 25px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 220px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 150px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 1180px) and (orientation : landscape) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: grid;
+        grid-template-columns: 350px 500px;
+        column-gap: 250px;
+        padding: 50px 20px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 18px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    #agreeTerms{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 360px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 1024px) and (orientation : landscape) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: grid;
+        grid-template-columns: 300px 400px;
+        column-gap: 250px;
+        padding: 50px 20px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 18px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    #agreeTerms{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 360px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width : 915px) and (orientation : landscape) {
+    /* The wrapper */
+
+    .wrap{
+        padding: 30px 40px;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(250, 247, 247);
+    }
+
+    /* styling the reg section */
+    .reg .reg-cont{
+        display: block;
+        /* grid-template-columns: 300px 400px;
+        column-gap: 250px; */
+        padding: 50px 40px;
+    }
+
+    /* styling the right column */
+
+    /* styling the heading */
+
+    .right-col .container{
+        margin-top: 130px;
+        margin-left: 180px;
+    }
+
+    .right-col .container h3{
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    /* styling the reg form */
+
+    /* styling all inputs */
+    input{
+        padding: 7px 7px;
+        width: 250px;
+        color: green;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid green;
+        outline: none;
+    }
+
+    /* styling all labels */
+    label{
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    /* styling student checkbox */
+    #stud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling non-students checkbox */
+    #Nstud-check{
+        width: 30px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    /* styling student form */
+    .stud-form{
+        display: none;
+    }
+
+    /* styling the select tag */
+    select{
+        outline: none;
+        cursor: pointer;
+        padding: 5px 6px;
+        border-radius: 5px;
+        border: 1px solid green;
+        color: green;
+        width: 135px;
+        margin-bottom: 15px;
+    }
+
+    /* styling the non-students form */
+
+    .Nstud-form{
+        display: none;
+    }
+
+    #biz-owner, #worker{
+        width: 20px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .que-biz{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-biz #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    span img{
+        width: 14px;
+        margin-left: 13px;
+        cursor: pointer;
+    }
+
+    .que-w{
+        border: 1px solid green;
+        width: 250px;
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+
+    .que-w #que{
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .bizOwner-form, .worker-form{
+        margin-bottom: 15px;
+    }
+
+    #angleUp{
+        display: none;
+    }
+
+    #bizName{
+        width: 230px;
+        display: none;
+    }
+
+    #address{
+        width: 230px;
+        display: none;
+    }
+
+    #workName{
+        width: 230px;
+        display: none;
+    }
+
+    #Waddress{
+        width: 230px;
+        display: none;
+    }
+
+    #abt{
+        text-transform: capitalize;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 5px;
+    }
+
+    textarea{
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+
+    #agr{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    #agreeTerms{
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .terms-conditions{
+        margin-bottom: 15px;
+    }
+
+    .terms-conditions a{
+        text-decoration: none;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .reg-button button{
+        background: gray;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 20px;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 60px;
+        cursor: not-allowed;
+    }
+
+    /* styling the pop up */
+
+    .popup{
+        width: 360px;
+        background: white;
+        padding: 20px 15px;
+        border: 1px solid #f4f4f4;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        display: none;
+    }
+
+    .popup .img-card img{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .popup p{
+        text-align: center;
+        color: green;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #cong{
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+
+    #confirm{
+        background: green;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+    }
+}
